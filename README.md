@@ -7,19 +7,19 @@ A tool to analyse transitive dependencies of GitHub workflows and to pin actions
 Setup:
 
 ```shell
-> poetry install
+$ poetry install
 ```
 
 Show transitive dependencies:
 
 ```shell
-> poetry run octopin dependencies path/to/my/workflow.yml
+$ poetry run octopin dependencies path/to/my/workflow.yml
 ```
 
 Pin actions:
 
 ```shell
-> poetry run octopin pin path/to/my/workflow.yml
+$ poetry run octopin pin path/to/my/workflow.yml
 ```
 
 Note: depending on the specified options, various calls to the GitHub API have to be made, which means you can easily
