@@ -13,7 +13,6 @@ Setup:
 Show transitive dependencies:
 
 ```shell
-> poetry install
 > poetry run octopin dependencies path/to/my/workflow.yml
 ```
 
