@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Packages
+*.egg
+!/tests/**/*.egg
+/*.egg-info
+/dist/*
+build
+_build
+.cache
+*.so
+.venv/
+
+# Unit test / coverage reports
+.coverage
+.pytest_cache
+
+.DS_Store
+.idea/*
+
+.mypy_cache
+
+# Installer logs
+pip-log.txt
