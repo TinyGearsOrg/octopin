@@ -1,5 +1,8 @@
 # octopin
 
+[![Build status](https://github.com/TinyGearsOrg/octopin/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/TinyGearsOrg/octopin/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A tool to analyse transitive dependencies of GitHub workflows and to pin actions.
 
 ## Usage:
